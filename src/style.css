@@ -227,4 +227,63 @@ footer a img {
     background-color: #ff6f6f;
 }
 
+@media screen and (max-width: 900px) {
+    * {
+        font-size: 16px;
+    }
 
+    header nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav img {
+        width: 80px;
+        height: 80px;
+    }
+
+    header nav h2 {
+        font-size: 16px;
+    }
+
+    header nav h2 span {
+        font-size: 18px;
+    }
+
+    .parrafo-proyecto a {
+        font-size: 17px;
+    }
+
+    main {
+        max-width: 360px;
+    }
+
+    main article section {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    main article .stack {
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    main aside form {
+        flex-direction: column;
+    }
+
+    aside form img {
+        height: 50px;
+        width: 50px;
+        align-self: center;
+    }
+
+    aside form input, aside form button {
+        height: 40px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
