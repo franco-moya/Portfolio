@@ -34,8 +34,8 @@ header nav {
 }
 
 header nav img {
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     object-fit: cover;
     border-radius: 50%;
     opacity: .9;
@@ -215,8 +215,8 @@ footer a img {
     }
 
     header nav img {
-        width: 80px;
-        height: 80px;
+        width: 110px;
+        height: 110px;
     }
 
     header nav h2 {
